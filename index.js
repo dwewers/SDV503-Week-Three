@@ -32,6 +32,10 @@ console.log(x);
 console.log(x++);
 console.log(x);
 
+//Difference between the two 
+//Pre Increment: Increments the value and execute the expression/ statement
+//Post Increment: Evaluate the expression/ statement, then increments the value
+
 
 console.log("Pre - Increment");
 
@@ -63,3 +67,7 @@ console.log(x--);
 console.log(x);
 console.log(x--);
 console.log(x);
+
+// difference between the two 
+//Pre Decrement: Decrements the value and execute the expression/ statement
+//Post Decrement: Evaluate the expression/ statement, then decrements the value
