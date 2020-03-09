@@ -121,7 +121,7 @@ let f = "my name is " + "string101";
 console.log(f);
 
 console.log(10 + 5);
-console.log(10 + "5");
+console.log(10 + "5"); //By adding a comment, it puts the number with the other rather than adding them together
 console.log("10" + 5);
 console.log(10 + 10 + "5");
 console.log(" 10"+ "10");
