@@ -1,9 +1,6 @@
 let x = 10;
 let y = x;
 
-
-
-
 console.log(x+y);
 console.log(x-y);
 console.log(x*y);
@@ -89,3 +86,42 @@ for(let i = 0; i<=10; i++)
     console.log(i);
 }
 //console logs values from minimum to maximum.
+
+
+console.log("Pre Icrement")
+console.log(x);
+console.log(10 * ++x);
+console.log(x)
+
+//Multiplies 10 by new value of x and posts value. Then posts new value of x
+
+console.log("Post Icrement")
+
+console.log(y);
+console.log(10 * y++)
+console.log(y);
+
+//Multiplies 10 by old value of x and posts value. Then increments it by one and posts new value of x
+
+
+//making strings
+
+let a = "hello, ";
+let b = "world";
+
+console.log(a + b);
+
+let c = "I am ";
+let d = "a string";
+let e = c + d;
+
+console.log(e);
+
+let f = "my name is " + "string101";
+console.log(f);
+
+console.log(10 + 5);
+console.log(10 + "5");
+console.log("10" + 5);
+console.log(10 + 10 + "5");
+console.log(" 10"+ "10");
