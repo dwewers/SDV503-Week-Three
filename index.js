@@ -125,3 +125,11 @@ console.log(10 + "5"); //By adding a comment, it puts the number with the other 
 console.log("10" + 5);
 console.log(10 + 10 + "5");
 console.log(" 10"+ "10");
+
+
+const firstWord = "hello";
+const secondWord = " world";
+
+console.log(firstWord + secondWord);
+console.log( `${firstWord} ${secondWord}` );
+
