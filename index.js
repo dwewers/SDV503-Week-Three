@@ -104,6 +104,11 @@ console.log(y);
 //Multiplies 10 by old value of x and posts value. Then increments it by one and posts new value of x
 
 
+// *====================================================================================================================================================================================================================================================================================
+//     ====================================================================================================================================================================================================================================================================================
+//     ====================================================================================================================================================================================================================================================================================*/
+
+
 //making strings
 
 let a = "hello, ";
@@ -120,16 +125,21 @@ console.log(e);
 let f = "my name is " + "string101";
 console.log(f);
 
-console.log(10 + 5);
+console.log(10 + 5); //works like a normal addition
 console.log(10 + "5"); //By adding a comment, it puts the number with the other rather than adding them together
-console.log("10" + 5);
-console.log(10 + 10 + "5");
-console.log(" 10"+ "10");
+console.log("10" + 5); //places the 5 next to the commented number
+console.log(10 + 10 + "5"); //Adds the two uncommented values together, then puts the commented number on the end
+console.log(" 10"+ "10"); //puts the two commented numbers together without adding them together
 
 
 const firstWord = "hello";
 const secondWord = " world";
 
-console.log(firstWord + secondWord);
-console.log( `${firstWord} ${secondWord}` );
+console.log(firstWord + secondWord); //The original way we were taught to prin to console using "+"
+console.log( `${firstWord} ${secondWord}` ); //This is a different way of printing words to the console without using "+"
 
+console.log(10 - 5); //works like a usual subtraction
+console.log(10 - "5"); //By adding a comment, it puts the number with the other rather than adding them together
+console.log("10" * 5); //multiplies the commented value by the uncommented value
+console.log(10 + 10 + "5"); //adds the two uncommented numbers together, and puts the commented number on the end
+console.log(" 10"+ "10"); //puts the two commented numbers together without adding them together
