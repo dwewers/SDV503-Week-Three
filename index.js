@@ -3,6 +3,7 @@ let y = x;
 
 
 
+
 console.log(x+y);
 console.log(x-y);
 console.log(x*y);
@@ -32,11 +33,6 @@ console.log(x);
 console.log(x++);
 console.log(x);
 
-//Difference between the two 
-//Pre Increment: Increments the value and execute the expression/ statement
-//Post Increment: Evaluate the expression/ statement, then increments the value
-
-
 console.log("Pre - Increment");
 
 y = ++x;
@@ -48,6 +44,11 @@ console.log("Post - Increment");
 y = x++;
 console.log(x);
 console.log(y);
+
+//Difference between the two 
+//Pre Increment: Increments the value and execute the expression/ statement
+//Post Increment: Evaluate the expression/ statement, then increments the value
+
 
 //Pre-decrement drcrements value by one, then returns x
 
@@ -68,6 +69,23 @@ console.log(x);
 console.log(x--);
 console.log(x);
 
+console.log("Pre - decrement");
+
+y = --x;
+console.log(x);
+console.log(y);
+
+console.log("Post - decrement");
+
+y = x--;
+console.log(x);
+console.log(y);
 // difference between the two 
 //Pre Decrement: Decrements the value and execute the expression/ statement
 //Post Decrement: Evaluate the expression/ statement, then decrements the value
+
+for(let i = 0; i<=10; i++)
+{
+    console.log(i);
+}
+//console logs values from minimum to maximum.
